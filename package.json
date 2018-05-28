@@ -1,0 +1,15 @@
+{
+  "name": "worshiptogether",
+  "version": "0.0.1",
+  "description": "Get the Chrods from Worhip Together (http://www.worshiptogether.com/)",
+  "main": "index.js",
+  "author": "Anh Tuan Nguyen",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html-to-text": "^4.0.0",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+  }
+}
