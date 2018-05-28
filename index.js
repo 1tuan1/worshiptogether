@@ -1,7 +1,6 @@
 'use strict'
 const request = require('request')
 const cheerio = require('cheerio')
-const cleanview = require('cleanview')
 const _ = require('lodash')
 const htmlToText = require('html-to-text')
 
