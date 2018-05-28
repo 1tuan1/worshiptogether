@@ -1,10 +1,11 @@
 {
   "name": "worshiptogether",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Get the Chord from Worhip Together website",
   "main": "index.js",
   "author": "Anh Tuan Nguyen",
   "license": "MIT",
+  "keywords": ["worship", "chord", "music", "api", "worshiptogether"],
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "html-to-text": "^4.0.0",
