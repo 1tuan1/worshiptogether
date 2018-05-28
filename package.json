@@ -1,6 +1,6 @@
 {
   "name": "worshiptogether",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get the Chord from Worhip Together website",
   "main": "index.js",
   "author": "Anh Tuan Nguyen",
