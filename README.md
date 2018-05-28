@@ -4,7 +4,7 @@ This module will help you to get API response from website http://www.worshiptog
 
 examples
 ```javascript
-const wt = require('./index')
+const wt = require('worshiptogether')
 
 wt.searchSong('oceans', songs =>  {
     console.log(songs)
@@ -12,7 +12,7 @@ wt.searchSong('oceans', songs =>  {
 ```
 ---
 ```javascript
-const wt = require('./index')
+const wt = require('worshiptogether')
 
 wt.autocomplete('10000', songs =>  {
     console.log(songs)
@@ -20,7 +20,7 @@ wt.autocomplete('10000', songs =>  {
 ```
 ---
 ```javascript
-const wt = require('./index')
+const wt = require('worshiptogether')
 
 wt.searchVideo('10000', songs =>  {
     console.log(songs)
@@ -28,7 +28,7 @@ wt.searchVideo('10000', songs =>  {
 ```
 ---
 ```javascript
-const wt = require('./index')
+const wt = require('worshiptogether')
 
 
 wt.get('http://www.worshiptogether.com/songs/good-good-father-tomlin', tab =>  {
@@ -39,7 +39,7 @@ wt.get('http://www.worshiptogether.com/songs/good-good-father-tomlin', tab =>  {
 #### or
 
 ```javascript
-const wt = require('./index')
+const wt = require('worshiptogether')
 
 wt.searchSong('oceans', songs =>  {
     wt.get(songs[0], tab =>  {
